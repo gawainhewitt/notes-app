@@ -5,10 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-
     "build": "esbuild ./src/index.js --bundle  --outfile=bundle.js --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gawainhewitt/notes-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gawainhewitt/notes-app/issues"
+  },
+  "homepage": "https://github.com/gawainhewitt/notes-app#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
 }
